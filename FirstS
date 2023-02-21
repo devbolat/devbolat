@@ -1,0 +1,5 @@
+#!/bin/bash
+#Create 25 files with numbers starting at max+1
+for ((i=1; i<=25; i++)); do
+touch "test$((max+i))"
+done
